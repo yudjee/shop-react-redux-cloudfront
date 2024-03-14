@@ -23,7 +23,8 @@
     "cloudfront:update:build:deploy": "npm run cloudfront:setup && npm run cloudfront:build:deploy",
     "cloudfront:update:build:deploy:nc": "npm run cloudfront:setup && npm run cloudfront:build:deploy:nc",
     "serverless:remove": "sls remove",
-    "serverless:deploy": "npm run build && npm run cloudfront:setup && npm run client:deploy:nc && npm run cloudfront:invalidateCache"
+    "serverless:deploy": "npm run build && npm run cloudfront:setup && npm run client:deploy:nc && npm run cloudfront:invalidateCache",
+    "serverless:update": "npm run cloudfront:build:deploy:nc"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
