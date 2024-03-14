@@ -33,7 +33,7 @@ export default function Header() {
             underline="none"
             to="/"
           >
-            My Store!
+            My game Store - task2
           </Link>
         </Typography>
 
