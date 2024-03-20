@@ -1,3 +1,6 @@
+CloudFront - https://d1sl40zlyl1zjy.cloudfront.net/
+S3 - http://yudin-course-bucket-task2.s3-website.eu-central-1.amazonaws.com
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
